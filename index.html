@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Play the Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+      <div class="intro">
+        <h1>Your name is...</h1>
+        <input data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="2800"
+              data-aos-offset="0"
+              id="name-input" type="text">
+        <a data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="3000"
+            data-aos-offset="0"
+            href="#welcome"
+            id="button1">
+          <p>Continue>></p>
+        </a>
+      </div>
+
+      <!-- Parallax Section -->
+      <div class="parallax-section parallax1" id="welcome">
+          <div class="grid grid-pad">
+              <div class="col-1-1">
+                   <div class="content content-header" >
+                      <h2>Welcome</h2>
+                      <p>Social media’s very business model is predicated on how much they can manipulate users’ behavior to boost engagement and extend the time spent on the platform, which the platform then monetizes to sell to advertisers. Instagram is literally selling users’ attention. </p>
+                      <a target="_blank" class="btn btn-ghost" href="#services">Continue</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- End Parallax Section -->
+
+      <!-- Services Section -->
+      <div class="wrap services-wrap" id="services">
+          <section class="grid grid-pad services">
+              <h2>What does social media serve?</h2>
+              <div class="col-1-4 service-box service-1" >
+                  <div class="content">
+                      <div class="service-icon">
+                          <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+                      </div>
+                      <div class="service-entry">
+                          <h3>Always Loading</h3>
+                          <p>Constantly focusing on your social account, you are like an infinite loading page that is never satisfied with what you are looking at.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-1-4 service-box service-2" >
+                  <div class="content">
+                      <div class="service-icon">
+                          <i class="fa fa-battery-empty"></i>
+                      </div>
+                      <div class="service-entry">
+                          <h3>Empty Battery</h3>
+                          <p>Internalizing idealism and projecting the imperfect self emptify who you really are.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-1-4 service-box service-3">
+                  <div class="content">
+                      <div class="service-icon">
+                          <i class="fa fa-chain-broken" style="font-size:24px"></i>
+                      </div>
+                      <div class="service-entry">
+                          <h3>Broken Connection</h3>
+                          <p>You may be good at commenting, giving likes, but what about genuine human converseations?</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-1-4 service-box service-4" >
+                  <div class="content">
+                      <div class="service-icon">
+                          <i class="fa fa-hourglass-o"></i>
+                      </div>
+                      <div class="service-entry">
+                          <h3>Running Time</h3>
+                          <p>Do you dare to check your device usage time after doomsurfing?</p>
+                      </div>
+                  </div>
+              </div>
+                <a class="btn btn-ghost" href="#instructions">Find Out More</a>
+          </section>
+      </div>
+      <!-- End Services Section -->
+
+      <div id="instructions">
+        <h1>What you can do here:</h1>
+        <p id="instructionsText1">According to the post description, decide if you like it or not</p>
+        <p id="instructionsText2">it is completely up to you</p>
+        <p id="instructionsText3">meanwhile you can see how many people liked the post</p>
+        <p id="instructionsText4">at the end of the day you'll see how many people liked your post</p>
+        <p id="instructionsText5">and you can turn off the "Like" counting if you want</p>
+        <a data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="500"
+            data-aos-offset="0"
+            href="#level1">
+          <p>Take a Look!</p>
+        </a>
+      </div>
+
+      <div id="level1">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h1>Like It or Not? </h1>
+            <a href="#level2">
+              <button id="rate1">
+                <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Your Collegue</h2>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 45</p>
+          <p>Post Description:</p>
+          <ul>
+            <li>Pilates Pics</li>
+            <li>enjoying brunch</li>
+            <li>Caption: A peerfect way to enjoy my weekends:)</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most Comments:</p>
+          <ul>
+            <li>You look GOREG</li>
+            <li>Queen</li>
+            <li>we should totally hang out next time</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <div id="level2">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h2>Like It or Not? </h2>
+            <a href="#level3">
+              <button id="rate2">
+                  <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Your Friend From High School</h2>
+            <p id="action2"></p>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 50</p>
+          <p>Post Description:</p>
+          <ul>
+            <li>offer from big-tech</li>
+            <li>connections with the socialite</li>
+            <li>Caption: Oh hey there</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most Comments:</p>
+          <ul>
+            <li>great job!</li>
+            <li>Is it okay if I leave a link to a resource? I think it’s pertinent to the topic at hand.</li>
+            <li>maybe we can connect sometime?</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div id="level3">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h3>Like It or Not?</h3>
+            <a href="#level4">
+              <button id="rate3">
+                  <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Influencer</h2>
+            <p id="action3"></p>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 5.5k</p>
+          <p>Post Description:</p>
+          <ul>
+            <li>Gala Night</li>
+            <li>Sparkling</li>
+            <li>Caption: I can show you the world.</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most comments:</p>
+          <ul>
+            <li>stunning</li>
+            <li>queen</li>
+            <li>GOAT</li>
+            <li>you are a TEN</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+
+      <div id="level4">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h1>Like It or Not</h1>
+            <a href="#level5">
+              <button id="rate4">
+                  <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Acquaintance</h2>
+            <p id="action4"></p>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 10</p>
+          <p>Post Description:</p>
+          <ul>
+            <li>Quotes from classics</li>
+            <li>random street views</li>
+            <li>Caption: Sunday Funday</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most comments:</p>
+          <ul>
+            <li>0 comments</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+
+      <div id="level5">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h2>Like It or Not?</h2>
+            <a href="#level6">
+              <button id="rate5">
+                  <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Friend</h2>
+            <p id="action5"></p>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 90</p>
+          <p>Post Description: </p>
+          <ul>
+            <li>traveling</li>
+            <li>on the beach</li>
+            <li>Caption: golder hour</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most comments:</p>
+          <ul>
+            <li>amazing</li>
+            <li>fabulous</li>
+            <li>where did u go?</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+
+      <div id="level6">
+        <div class="ratings">
+          <div class="ratingThem">
+            <h3>Like It or Not?</h3>
+            <a href="#end">
+              <button id="rate6">
+                  <i class="fa fa-heart" style="font-size:48px;"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="impression">
+          <div class="characterName">
+            <h2>Youtuber</h2>
+            <p id="action6"></p>
+          </div>
+          <div class="traits">
+            <div class="t1">
+          <p>Likes: 1.1k</p>
+          <p>Post Description:</p>
+          <ul>
+            <li>vlog screenshot</li>
+            <li>daily life post</li>
+            <li>Caption: A Day with Me</li>
+          </ul>
+        </div>
+        <div class="t2">
+          <p>Most Comments:</p>
+          <ul>
+            <li>you are living in my dream</li>
+            <li>love the edited version</li>
+            <li>you do what excites</li>
+            <li>it’s like talking to a friend honestly :)</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+
+
+      <div id="end">
+        <div id="totalScore">
+          <h1>Did you notice the similarities
+            among the posts you liked?</h1>
+          <h2 id="finalscoreoutputText"></h2>
+        </div>
+        <p id="action1"></p>
+        <h4>What influenced how you "like"?</h4>
+        <a data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            href="#info">
+          <p>Continue>></p>
+        </a>
+      </div>
+
+      <div id="info">
+        <div class="container" >
+          <div class="content">
+            <div class="pic">
+              <img src="likes.jpg" alt="">
+            </div>
+            <h2 class="frame-1">Luxury? Ideal Life?</h2>
+            <h2 class="frame-2">There is a screen between you and the "perfection"</h2>
+            <h2 class="frame-3">Stop buying food you are not going to eat</h2>
+            <h2 class="frame-4">Now!</h2>
+            <h2 class="frame-5">
+              <span>Your body is perfect.</span>
+              <span>You are on your way to your career.</span>
+              <span>URU.</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
